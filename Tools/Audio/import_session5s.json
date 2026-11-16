@@ -1,0 +1,38 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Voice",
+			"Filenames": [
+				"Audio/Eleven/Voice/Lines/vo_banter_1_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_1_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_2_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_2_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_3_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_3_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_4_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_4_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_5_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_5_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_6_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_6_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_7_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_7_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_8_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_banter_8_ron.wav"
+			],
+			"DestinationPath": "/Game/Audio/Voice",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		},
+		{
+			"GroupName": "Sfx",
+			"Filenames": [
+				"Audio/Eleven/Sfx/sfx_comic_typing_01.wav",
+				"Audio/Eleven/Sfx/sfx_comic_ring_01.wav"
+			],
+			"DestinationPath": "/Game/Audio/Sfx",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}

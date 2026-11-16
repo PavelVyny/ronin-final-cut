@@ -1,0 +1,13 @@
+#!/bin/sh
+# Refreshes the agent session logs and adds them to the commit, so prompts and replies are versioned with the work.
+# Enabled per clone: git config core.hooksPath Tools/Git/hooks
+# A failed export never blocks a commit.
+ROOT="$(git rev-parse --show-toplevel)"
+PY=python
+command -v python >/dev/null 2>&1 || PY=python3
+if PYTHONUTF8=1 "$PY" "$ROOT/Tools/Devlog/export_sessions.py" --quiet; then
+	git -C "$ROOT" add _AgentLogs
+else
+	echo "[devlog] WARNING: session export failed, commit goes on without fresh logs"
+fi
+exit 0

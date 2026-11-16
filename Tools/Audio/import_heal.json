@@ -1,0 +1,13 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Sfx",
+			"Filenames": [
+				"Audio/Eleven/Game/sfx_heal_cash_01.wav"
+			],
+			"DestinationPath": "/Game/Audio/Sfx",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}

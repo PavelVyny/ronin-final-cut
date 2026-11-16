@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"F:/Unreal_Engine/UnrealProjects/MegaJam2026/.claude/hooks/unverified_code.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

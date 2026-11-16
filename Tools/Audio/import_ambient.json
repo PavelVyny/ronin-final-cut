@@ -1,0 +1,13 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Ambient",
+			"Filenames": [
+				"Audio/Eleven/Music/mus_ambient.wav"
+			],
+			"DestinationPath": "/Game/Audio/Music",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}

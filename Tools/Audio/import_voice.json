@@ -1,0 +1,38 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Voice",
+			"Filenames": [
+				"Audio/Eleven/Voice/Lines/vo_intro_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_intro_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut1_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut1_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut2_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut2_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut3_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut3_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut4_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_cut4_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_stun_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_final_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_final_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_bark_1_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_bark_2_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_bark_3_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_bark_4_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_steal_shuriken.wav",
+				"Audio/Eleven/Voice/Lines/vo_steal_parry.wav",
+				"Audio/Eleven/Voice/Lines/vo_steal_dash_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_steal_dash_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_steal_ultimate.wav",
+				"Audio/Eleven/Voice/Lines/vo_comic_1_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_comic_2_ron.wav",
+				"Audio/Eleven/Voice/Lines/vo_comic_3_pub.wav",
+				"Audio/Eleven/Voice/Lines/vo_comic_4_ron.wav"
+			],
+			"DestinationPath": "/Game/Audio/Voice",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}

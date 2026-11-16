@@ -1,0 +1,5 @@
+[
+	{"name": "sfx_comic_typing_01", "seconds": 7.0, "influence": 0.7, "text": "Fast steady typing on a clicky mechanical keyboard late at night in a quiet room, a developer coding, continuous key clacks and an occasional space bar, close and intimate, no music."},
+	{"name": "sfx_comic_ring_01", "seconds": 2.5, "influence": 0.7, "text": "A smartphone ringing on a wooden desk: two short electronic ring bursts with a buzzing vibration rattle, an urgent incoming call, then silence."},
+	{"name": "sfx_comic_shatter_01", "seconds": 1.5, "influence": 0.75, "text": "A sharp sudden glass shatter: a computer monitor screen smashed by a heavy metal fist, an instant hard crack and burst of breaking glass with small shards tinkling down, short and punchy, no music, no voice."}
+]

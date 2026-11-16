@@ -1,0 +1,26 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Sfx",
+			"Filenames": [
+				"Audio/Stub/Sfx/sfx_katana_slash_01.wav",
+				"Audio/Stub/Sfx/sfx_shuriken_throw_01.wav",
+				"Audio/Stub/Sfx/sfx_explosion_01.wav",
+				"Audio/Stub/Sfx/sfx_slam_01.wav",
+				"Audio/Stub/Sfx/sfx_dash_01.wav",
+				"Audio/Stub/Sfx/sfx_parry_01.wav",
+				"Audio/Stub/Sfx/sfx_ultimate_01.wav",
+				"Audio/Stub/Sfx/sfx_boss_hit_01.wav",
+				"Audio/Stub/Sfx/sfx_hero_hurt_01.wav",
+				"Audio/Stub/Sfx/sfx_steal_card_01.wav",
+				"Audio/Stub/Sfx/sfx_steal_01.wav",
+				"Audio/Stub/Sfx/sfx_everything_back_01.wav",
+				"Audio/Stub/Sfx/sfx_final_blow_01.wav",
+				"Audio/Stub/Sfx/sfx_ultimate_ready_01.wav"
+			],
+			"DestinationPath": "/Game/Audio/Sfx",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}

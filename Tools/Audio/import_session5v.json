@@ -1,0 +1,13 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Sfx",
+			"Filenames": [
+				"Audio/Eleven/Sfx/sfx_comic_shatter_01.wav"
+			],
+			"DestinationPath": "/Game/Audio/Sfx",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}

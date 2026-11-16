@@ -1,0 +1,22 @@
+[
+ {
+  "name": "vo_cast_publisher_a",
+  "description": "A huge, fat, rich American media executive in his fifties. Deep, booming, chesty bass voice with a warm smug chuckle, theatrical and self-satisfied, like a cartoon tycoon villain. Speaks fast and loud in corporate buzzwords, genuinely believes he is helping. Clean studio recording.",
+  "text": "[chuckles] Ooh, shiny! Love the passion, kid. Now let's trim the fat so we can actually ship this thing. Focus group says the art is distracting. Minimalism is trending anyway! Neon? In this economy? Grey-box is the new gritty!"
+ },
+ {
+  "name": "vo_cast_publisher_b",
+  "description": "An obese, wealthy game publisher boss with a gravelly, husky, slightly wheezy baritone, oily and charming, a used-car-salesman energy with big laughs. Over-the-top villain from an animated action game. Close-mic studio recording.",
+  "text": "Animation is pure vanity. Call it... avant-garde! [laughs] Pure mechanics! Zero bloat! Behold... the Minimum Viable Product! Wait, wait! Keep the neon! Keep the sword! Full creative control, I swear!"
+ },
+ {
+  "name": "vo_cast_ronin_a",
+  "description": "A young man in his mid twenties, an exhausted indie game developer. Low, calm, dry and deadpan, slightly raspy from no sleep, understated sarcasm, cool and stubborn like an anime swordsman. Neutral American accent. Clean studio recording.",
+  "text": "This is my vision, my game! And I will fight for it. Good thing the hitboxes still work. It's a PC game, man. You are joking, right? It is not what I wanted to create! Patch notes: you're out!"
+ },
+ {
+  "name": "vo_cast_ronin_b",
+  "description": "A lean young male hero in his twenties with a soft, quiet, husky tenor, tired and laconic, sharp and confident underneath, like a calm ninja protagonist from a stylish action game. Very little emotion until the final shout. Close-mic studio recording.",
+  "text": "Good thing the hitboxes still work. [sighs] It's a PC game, man. You can't patch out muscle memory, fat guy. This is my vision, my game! And I will fight for it. [shouting] Patch notes: you're out!"
+ }
+]

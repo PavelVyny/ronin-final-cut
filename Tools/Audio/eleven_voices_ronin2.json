@@ -1,0 +1,10 @@
+[
+ {"name": "vo_cast_ronin_c",
+  "reference": "Audio/Eleven/Voice/Casting/vo_cast_ronin_b_2.mp3", "prompt_strength": 0.5,
+  "description": "The same voice as the reference but younger: a man of about twenty-two, a lighter, clean and smooth voice with no rasp and no gravel, never growling. Calm, quiet confidence, a little cocky and dry, warm underneath. Not a dark brooding hero, not a smoker. Close-mic studio recording.",
+  "text": "Good thing the hitboxes still work. It's a PC game, man. You can't patch out muscle memory, fat guy. This is my vision, my game! And I will fight for it. [shouting] Patch notes: you're out!"},
+ {"name": "vo_cast_ronin_d",
+  "reference": "Audio/Eleven/Voice/Casting/vo_cast_ronin_b_2.mp3", "prompt_strength": 0.75,
+  "description": "A young man around twenty, fresh and clear light tenor, calm and relaxed, easygoing, quietly confident with a hint of a smirk. Smooth voice, no rasp, no husk, no deep growl. A young indie developer who is the hero of a stylish action game. Close-mic studio recording.",
+  "text": "Good thing the hitboxes still work. It's a PC game, man. You can't patch out muscle memory, fat guy. This is my vision, my game! And I will fight for it. [shouting] Patch notes: you're out!"}
+]

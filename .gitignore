@@ -1,0 +1,47 @@
+# Unreal generated folders
+/Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+/Build/
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/
+# NVIDIA DLSS: the NGX runtime and import libraries ship with the plugin (Git LFS); its module DLLs are built here
+!Plugins/DLSS/Binaries/ThirdParty/
+
+# IDE and solution files (regenerated from .uproject)
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.VC.db
+*.opendb
+*.DotSettings.user
+
+# Compiled artifacts
+*.pdb
+*.dll
+*.exe
+*.obj
+*.lib
+!Plugins/DLSS/Binaries/ThirdParty/Win64/*.dll
+!Plugins/DLSS/Source/ThirdParty/NGX/Lib/x64/*.lib
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Per-user Claude Code settings
+.claude/settings.local.json
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local secrets (API keys)
+.env

@@ -1,0 +1,18 @@
+[
+	{"name": "sfx_katana_slash_01", "seconds": 0.7, "influence": 0.6, "text": "A fast sharp katana sword swing whoosh through the air with a bright metallic energy edge, neon cyberpunk blade, clean and crisp, no impact."},
+	{"name": "sfx_shuriken_throw_01", "seconds": 0.6, "influence": 0.6, "text": "A small spinning metal throwing star thrown hard, a quick high whirring whoosh flying away, light and fast."},
+	{"name": "sfx_explosion_01", "seconds": 1.5, "influence": 0.6, "text": "A punchy compact explosion with an electric synth crackle, a sci-fi neon grenade blast with a short tail."},
+	{"name": "sfx_slam_01", "seconds": 1.6, "influence": 0.6, "text": "A huge heavy fat man slamming both armoured fists into a stone floor, a deep bass ground impact with rumble and falling debris, extremely powerful."},
+	{"name": "sfx_dash_01", "seconds": 0.5, "influence": 0.6, "text": "A very fast air dash whoosh, a quick blink swoosh with a slight synth shimmer."},
+	{"name": "sfx_parry_01", "seconds": 0.8, "influence": 0.6, "text": "A crisp metallic sword parry clang deflecting a projectile, a bright ringing ping with an electric shimmer."},
+	{"name": "sfx_ultimate_01", "seconds": 1.8, "influence": 0.6, "text": "A charged energy sword special attack: a short rising synth whine, then a massive slicing laser slash across a whole arena, cinematic."},
+	{"name": "sfx_boss_hit_01", "seconds": 0.5, "influence": 0.6, "text": "A heavy blow landing on a big fat man in armour, a dull meaty thud with a metallic armour clink."},
+	{"name": "sfx_hero_hurt_01", "seconds": 0.6, "influence": 0.5, "text": "A young warrior's short pained grunt as he is hit, with a sharp electric zap."},
+	{"name": "sfx_steal_card_01", "seconds": 1.0, "influence": 0.5, "text": "A dramatic game menu stinger: a paper card slapped down on a desk with a short tense synth hit."},
+	{"name": "sfx_steal_01", "seconds": 1.2, "influence": 0.5, "text": "A glitchy digital tearing sound, a feature being ripped out of a video game, data corruption glitch with a downward pitch drop."},
+	{"name": "sfx_everything_back_01", "seconds": 2.0, "influence": 0.5, "text": "A triumphant rising synth swell with sparkling glitter, power restored, everything coming back online, bright and uplifting."},
+	{"name": "sfx_final_blow_01", "seconds": 2.6, "influence": 0.6, "text": "A final decisive katana strike: an enormous slicing impact with a deep boom and a long shimmering metallic ring-out, a victory moment."},
+	{"name": "sfx_ultimate_ready_01", "seconds": 0.8, "influence": 0.6, "text": "A short bright rising synth chime, a power-up ready notification, three quick ascending notes, clean game interface sound."},
+	{"name": "sfx_heal_cash_01", "seconds": 1.0, "influence": 0.7, "text": "A cash register ka-ching: a quick mechanical drawer slide and a bright bell ding with a coin jingle, a satisfying money pickup in an arcade game."},
+	{"name": "mus_poc_loop", "seconds": 16, "influence": 0.7, "loop": true, "text": "A bare unfinished prototype game music loop at 120 BPM: only a dry metronome click on every beat and a thin square-wave bass note, lo-fi placeholder, no melody."}
+]

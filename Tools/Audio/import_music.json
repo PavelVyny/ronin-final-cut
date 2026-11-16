@@ -1,0 +1,17 @@
+{
+	"ImportGroups": [
+		{
+			"GroupName": "Music",
+			"Filenames": [
+				"Audio/Stub/mus_main_1_drums.wav",
+				"Audio/Stub/mus_main_2_bass.wav",
+				"Audio/Stub/mus_main_3_pad.wav",
+				"Audio/Stub/mus_main_4_lead.wav",
+				"Audio/Stub/mus_poc_loop.wav"
+			],
+			"DestinationPath": "/Game/Audio/Music",
+			"bReplaceExisting": true,
+			"bSkipReadOnly": false
+		}
+	]
+}
