@@ -1,10 +1,12 @@
 # JAM_PLAN: Epic AI MegaJam 2026
 
 > Translated from Russian on 2026-11-17, after the jam. The original text (Russian with a few English lines added
-> during the jam) is in the first commit of this repository. Nothing was added or removed, except that a line-number
-> reference to `JAM_BRIEF.md` now points to the section, because the translation shifted the lines.
+> during the jam) is in the first commit of this repository. Nothing was added or removed, with two exceptions: a
+> line-number reference to `JAM_BRIEF.md` now points to the section, because the translation shifted the lines, and
+> the first version of the plan now points to `HOW_THE_IDEA_CAME.md`, because this repository has no history before
+> the jam.
 
-Version 2 of 12.11, 13:20: the concept is simplified to a single boss fight. The first version (robot waves, timed revisions) is in the git history. Rules and prizes: `JAM_BRIEF.md`. What was in the repository before the start: `PREJAM.md`.
+Version 2 of 12.11, 13:20: the concept is simplified to a single boss fight. The first version (robot waves, timed revisions) is summarised in `HOW_THE_IDEA_CAME.md`. Rules and prizes: `JAM_BRIEF.md`. What was in the repository before the start: `PREJAM.md`.
 
 All times below are by the home PC clock (UTC+2). For Oslo, minus one hour.
 

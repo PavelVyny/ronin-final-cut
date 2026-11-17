@@ -7,6 +7,7 @@ tier: full art, shape ronin, greybox, the bean. Drop his health to zero and ever
 
 - Play it (Windows build): https://pavyny.itch.io/ronin-final-cut
 - Dev log: [Directing the cut: four days, one boss and an AI agent](https://pavyny.itch.io/ronin-final-cut/devlog/1781307/directing-the-cut-four-days-one-boss-and-an-ai-agent)
+- How the idea came, from four concepts to a boss who steals your features: [`HOW_THE_IDEA_CAME.md`](HOW_THE_IDEA_CAME.md)
 
 This repository is the Glass Box copy of the project: the code, the tooling, the plans and every agent session, so
 the judges can see how the game was made. The art, audio and levels are left out for size; the playable build is on
