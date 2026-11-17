@@ -1,233 +1,237 @@
 # JAM_PLAN: Epic AI MegaJam 2026
 
-Версия 2 от 12.11, 13:20: концепт упрощён до одного боя с боссом. Первая версия (волны роботов, правки по таймеру) лежит в истории git. Правила и призы: `JAM_BRIEF.md`. Что было в репозитории до старта: `PREJAM.md`.
+> Translated from Russian on 2026-11-17, after the jam. The original text (Russian with a few English lines added
+> during the jam) is in the first commit of this repository. Nothing was added or removed, except that a line-number
+> reference to `JAM_BRIEF.md` now points to the section, because the translation shifted the lines.
 
-Все времена ниже по часам домашнего ПК (UTC+2). Для Осло минус один час.
+Version 2 of 12.11, 13:20: the concept is simplified to a single boss fight. The first version (robot waves, timed revisions) is in the git history. Rules and prizes: `JAM_BRIEF.md`. What was in the repository before the start: `PREJAM.md`.
 
-| Событие | Время |
+All times below are by the home PC clock (UTC+2). For Oslo, minus one hour.
+
+| Event | Time |
 |---|---|
-| Старт джема | чт 12.11, 07:00 |
-| Дедлайн Epic | пн 16.11, 03:59 |
-| Наш сабмит, жёсткая граница | вс 15.11, 21:59 (за 6 часов) |
+| Jam start | Thu 12.11, 07:00 |
+| Epic deadline | Mon 16.11, 03:59 |
+| Our submission, hard limit | Sun 15.11, 21:59 (6 hours early) |
 
-## 1. Концепт
+## 1. Concept
 
-**NEON RONIN** (рабочее имя, уникальность не проверена) это один бой с боссом. Игрок здесь Director, автор игры про неонового самурая. В его игру лично приходит Publisher: «слишком дорого и слишком долго». Он не вырезает фичи, он забирает их себе: хватает две механики, игрок решает, какую отдать, и дальше Publisher бьёт ею самого игрока. С каждой кражей игра вокруг дешевеет: уходят эффекты, текстуры, анимации, слои музыки, а лощёный Publisher остаётся единственным дорогим объектом в кадре. Последнюю пятую боя игрок добивает фасолиной с шариками. На нуле всё возвращается разом, и игрок сам наносит финальный удар. Победа: на титуле появляется «: DIRECTOR'S CUT». Поражение: «: PROOF OF CONCEPT».
+**NEON RONIN** (working name, uniqueness not checked) is a single boss fight. The player here is the Director, the author of a game about a neon samurai. The Publisher comes into his game in person: "too expensive and too slow". He does not cut features, he takes them for himself: he grabs two mechanics, the player decides which one to give up, and from then on the Publisher hits the player with it. With every theft the game around gets cheaper: effects, textures, animations, music layers go away, while the polished Publisher stays the only expensive object in the frame. The player finishes the last fifth of the fight as a bean with little balls. At zero everything comes back at once, and the player lands the final blow himself. Victory: ": DIRECTOR'S CUT" appears on the title. Defeat: ": PROOF OF CONCEPT".
 
-Тема джема здесь механика: игрок сам решает, что уйдёт под нож, и сам забирает свою версию обратно.
+The jam theme is the mechanic here: the player decides what goes under the knife and takes his version back himself.
 
-## 2. Основной цикл
+## 2. Core loop
 
-1. Одна арена, один враг. Волн и других врагов нет. Автоатак нет: всё делает игрок.
-2. Игрок бьёт босса, уворачивается от его атак и копит ульту.
-3. На порогах здоровья босса бой замедляется на 3 секунды: Publisher хватает две случайные механики, игрок выбирает, какую отдать.
-4. Отданная механика переходит к боссу, он пользуется ею до конца боя. Вместе с ней уходит слой картинки и дорожка музыки.
-5. Ниже 20% игрок остался фасолиной. На нуле босс оглушён, всё возвращается, игрок жмёт ульту: финальный удар и титул.
+1. One arena, one enemy. No waves and no other enemies. No auto-attacks: the player does everything.
+2. The player hits the boss, dodges his attacks and charges the ultimate.
+3. At the boss's health thresholds the fight slows down for 3 seconds: the Publisher grabs two random mechanics, the player chooses which one to give up.
+4. The given-up mechanic passes to the boss, who uses it until the end of the fight. A picture layer and a music track go with it.
+5. Below 20% the player is left as a bean. At zero the boss is stunned, everything comes back, the player presses the ultimate: the final blow and the title.
 
-### Ход боя (3–4 минуты)
+### Fight flow (3–4 minutes)
 
-| Здоровье босса | Что происходит |
+| Boss health | What happens |
 |---|---|
-| 100% | Полная игра: пять механик, полный микс. Реплика Publisher, бой начинается сразу |
-| 80%, 60%, 40% | Кража с выбором из пары. Уходит слой косметики и дорожка музыки |
-| 20% | FINAL NOTE «cut the rest»: он забирает оставшееся без выбора. Фасолина, серый мир, PoC-музыка |
-| 0% | Босс оглушён, всё возвращается разом, полный микс. Игрок жмёт ульту: финальный удар |
-| после | Титул победы |
+| 100% | The full game: five mechanics, full mix. A Publisher line, the fight starts right away |
+| 80%, 60%, 40% | A theft with a choice from a pair. A cosmetic layer and a music track go away |
+| 20% | FINAL NOTE "cut the rest": he takes what is left without a choice. Bean, grey world, PoC music |
+| 0% | The boss is stunned, everything comes back at once, full mix. The player presses the ultimate: the final blow |
+| after | Victory title |
 
-Версия на три механики (строится первой): выбор на 75% и 50%, остаток уходит на 25%.
+Three-mechanic version (built first): choices at 75% and 50%, the rest goes at 25%.
 
-**Смерть игрока:** экран «SHIPPED AS PROOF OF CONCEPT» и Retry с последней кражи (здоровье босса на пороге, герой с полным здоровьем, набор механик как после кражи).
+**Player death:** the "SHIPPED AS PROOF OF CONCEPT" screen and Retry from the last theft (boss health at the threshold, the hero at full health, the mechanic set as after the theft).
 
-### Механики
+### Mechanics
 
-| Механика | У игрока | Кнопка | У босса после кражи |
+| Mechanic | With the player | Button | With the boss after the theft |
 |---|---|---|---|
-| Katana | Серия ударов в сторону прицела | ЛКМ | Сближается и рубит серией |
-| Shuriken | Бросок, каждый третий взрывается | ПКМ | Бросает издали, каждый третий взрывается |
-| Dash | Рывок с неуязвимостью | Space | Рывком уходит от ударов и сокращает дистанцию |
-| Parry | Отбивает снаряд обратно, по таймингу | Q | Встаёт в стойку и отбивает снаряды игрока |
-| Ultimate | Шкала от попаданий, замедление и разрез через экран | R | Разрез по линии с предупреждением, уйти с линии |
+| Katana | A combo of strikes towards the aim | LMB | Closes in and slashes in a combo |
+| Shuriken | A throw, every third one explodes | RMB | Throws from a distance, every third one explodes |
+| Dash | A dash with invulnerability | Space | Dashes away from strikes and closes the distance |
+| Parry | Reflects a projectile back, on timing | Q | Takes a stance and reflects the player's projectiles |
+| Ultimate | A meter from hits, slow motion and a slash across the screen | R | A slash along a line with a warning, step off the line |
 
-- Если украдена Katana или Shuriken, эта кнопка стреляет слабым шариком. Атака у игрока есть всегда.
-- Свои атаки босса (есть с начала): залп меморандумов (снаряды, отбиваются) и удар по площади с предупреждающим кругом.
-- Каждая механика это компонент с владельцем. Кража это смена владельца: код у героя и у босса один.
-- Прицел: мышь (в виде сверху это курсор по арене), на геймпаде правый стик.
+- If Katana or Shuriken is stolen, that button fires a weak ball. The player always has an attack.
+- The boss's own attacks (there from the start): a volley of memos (projectiles, can be reflected) and an area strike with a warning circle.
+- Each mechanic is a component with an owner. A theft is a change of owner: the hero and the boss share the same code.
+- Aim: the mouse (in the top-down view it is a cursor on the arena), the right stick on a gamepad.
 
-### Косметика
+### Cosmetics
 
-Деградируют мир и герой. Publisher остаётся в полном качестве: он не часть бюджета игры.
+The world and the hero degrade. The Publisher stays at full quality: he is not part of the game's budget.
 
-| Кража | Визуал | Музыка |
+| Theft | Visuals | Music |
 |---|---|---|
-| 1 | Эффекты выключены | минус дорожка |
-| 2 | Текстуры превращаются в сетку | минус дорожка |
-| 3 | Анимации превращаются в T-позу | минус дорожка |
-| Финальная | Герой превращается в фасолину, интерфейс вырезан | PoC-версия (метроном) |
+| 1 | Effects off | minus a track |
+| 2 | Textures turn into a grid | minus a track |
+| 3 | Animations turn into a T-pose | minus a track |
+| Final | The hero turns into a bean, the interface is cut | PoC version (metronome) |
 
-### Камера
+### Camera
 
-В прототипе три варианта, переключение F1/F2/F3: вид сверху 3/4 как в Hades, третье лицо из-за плеча, первое лицо. Симуляция о камере не знает, меняются только камера и источник прицела.
+The prototype has three options, switched with F1/F2/F3: top-down 3/4 like Hades, third person over the shoulder, first person. The simulation does not know about the camera, only the camera and the aim source change.
 
-**Павел играет билд К1 сегодня ночью и выбирает одну камеру до пт 07:00.** С пятницы арт и баланс идут под неё. До выбора анимации героя не заказываем. В первом лице не видно, как герой становится фасолиной: это учитываем при выборе.
+**Pavel plays build K1 tonight and picks one camera by Fri 07:00.** From Friday art and balance follow it. No hero animations are ordered before the choice. In first person you cannot see the hero turn into a bean: take that into account when choosing.
 
-### Интро
+### Intro
 
-В прототипе нет: игра стартует с реплики Publisher. Задумка (камера из-за плеча разработчика въезжает в монитор) решается в субботу: картина с наездом на 5–8 секунд или 3D-сцена. В любом виде интро пропускается кнопкой.
+Not in the prototype: the game starts with a Publisher line. The idea (a camera from over the developer's shoulder flies into the monitor) is decided on Saturday: a painting with a 5–8 second push-in or a 3D scene. In any form the intro can be skipped with a key.
 
-## 3. Объём
+## 3. Scope
 
-### Полная версия (цель)
+### Full version (the goal)
 
-- Одна арена в неоне, герой и босс на одном скелете (босс в 1.5–2 раза крупнее, корпоративный самурай в костюме), один набор анимаций на двоих.
-- Пять механик, три выбора и финальная кража, четыре слоя косметики.
-- Добивание с возвратом, два титула, английский текст, музыка слоями, звуки.
+- One neon arena, hero and boss on one skeleton (the boss 1.5–2 times bigger, a corporate samurai in a suit), one animation set for both.
+- Five mechanics, three choices and the final theft, four cosmetic layers.
+- The finishing blow with everything coming back, two titles, English text, layered music, sounds.
 
-### Линия отреза (режем сверху вниз)
+### Cut line (cut from the top down)
 
-1. Интро.
-2. DLSS и RTX Award.
-3. Босс пользуется украденными Parry и Ultimate (просто забирает их).
-4. Механики 4 и 5: остаются Katana, Shuriken, Dash и два выбора.
-5. Вторая и третья камера (после выбора они и так уходят).
-6. Босс пользуется украденным вообще (просто забирает).
+1. Intro.
+2. DLSS and the RTX Award.
+3. The boss uses the stolen Parry and Ultimate (he just takes them).
+4. Mechanics 4 and 5: Katana, Shuriken, Dash and two choices remain.
+5. The second and third camera (they go after the choice anyway).
+6. The boss uses stolen mechanics at all (he just takes them).
 
-### Не режем никогда
+### Never cut
 
-- Путь от полной игры к фасолине, не меньше четырёх слоёв.
-- Выбор игрока из пары.
-- Английский текст в игре.
-- Упакованный Shipping-билд и видео.
-- Сабмит за 6 часов до дедлайна.
+- The path from the full game to the bean, at least four layers.
+- The player's choice from a pair.
+- English text in the game.
+- A packaged Shipping build and the video.
+- Submission 6 hours before the deadline.
 
-### Если успеем (в порядке добавления)
+### If time allows (in order of adding)
 
-1. Интро и отъезд камеры от монитора на победе.
-2. Голос Publisher.
-3. DLSS ради RTX Award (сначала проверить список стран).
-4. Геймпад.
+1. The intro and the camera pulling back from the monitor on victory.
+2. The Publisher's voice.
+3. DLSS for the RTX Award (check the country list first).
+4. Gamepad.
 
-## 4. Кто что делает
+## 4. Who does what
 
-| Кто | Зона | Сдаёт |
+| Who | Area | Delivers |
 |---|---|---|
-| **Павел** (Team Owner) | Режиссура и приёмка: камера, концепты, модели, ощущения от боя. Модели в Tripo руками, два пропса в Rodin. Монтаж видео в воскресенье. Форма сабмита, аккаунт itch | Решения в тот же вечер |
-| **Кирилл** | Музыка в четырёх дорожках плюс PoC-версия, звуки, дизайн интерфейса в Figma (карточка кражи, шкала босса, титулы). Плейтест на Windows | Файлы в папку Google Drive, без git и без Unreal |
-| **Евгений** (не подтверждён, возможно с 14.11) | Плейтест, список багов, запуск на чистой машине, вычитка английского | Список в общий чат. План от него не зависит |
-| **Claude** | Весь код через тесты, импорт арта и звука, сборки, заливка на itch, сырые клипы, dev log, списки инструментов и сторонних ассетов | Коммит, клип и три строки после каждого блока |
+| **Pavel** (Team Owner) | Direction and acceptance: camera, concepts, models, the feel of the fight. Models in Tripo by hand, two props in Rodin. Video editing on Sunday. The submission form, the itch account | Decisions the same evening |
+| **Kirill** | Music in four tracks plus a PoC version, sounds, interface design in Figma (theft card, boss bar, titles). Playtest on Windows | Files in a Google Drive folder, no git and no Unreal |
+| **Evgeny** (not confirmed, maybe from 14.11) | Playtest, bug list, a run on a clean machine, English proofreading | A list in the shared chat. The plan does not depend on him |
+| **Claude** | All code through tests, art and sound import, builds, itch uploads, raw clips, dev log, the tool and third-party asset lists | A commit, a clip and three lines after each block |
 
-Что нужно от Кирилла по формату:
-- Музыка: 4 дорожки одной длины и темпа, зацикленные, WAV 48 кГц. Плюс PoC-петля, акцент на возврат, акценты победы и поражения.
-- Звуки: удар катаны, бросок, взрыв, рывок, парирование, ульта, попадание по боссу, урон герою, кража (акцент), карточка выбора, возврат всего, финальный удар.
-- Имена файлов: `mus_main_1_drums.wav`, `sfx_katana_slash_01.wav`, `ui_steal_card.png`.
+What is needed from Kirill, format-wise:
+- Music: 4 tracks of the same length and tempo, looped, WAV 48 kHz. Plus a PoC loop, an accent for the comeback, victory and defeat accents.
+- Sounds: katana strike, throw, explosion, dash, parry, ultimate, hit on the boss, damage to the hero, theft (accent), choice card, everything coming back, the final blow.
+- File names: `mus_main_1_drums.wav`, `sfx_katana_slash_01.wav`, `ui_steal_card.png`.
 
-Пайплайн персонажей: концепты картинками через fal, затем модели в Meshy, Павел утверждает или делает аналоги в Tripo и решает, как работаем до финала. Оружие отдельными моделями. Герой и босс на одном скелете.
+Character pipeline: concepts as images through fal, then models in Meshy, Pavel approves or makes counterparts in Tripo and decides how we work until the end. Weapons as separate models. Hero and boss on one skeleton.
 
-## 5. План по часам
+## 5. Hour-by-hour plan
 
-Жёсткие точки: **К1** играбельная версия, **К2** тестовый билд, **К3** фиче-фриз, **К4** видео, **К5** сабмит.
+Hard points: **K1** playable version, **K2** test build, **K3** feature freeze, **K4** video, **K5** submission.
 
 **Schedule change (the author, Sat 14 Nov 18:30):** the Sat 22:00 feature freeze (K3) is lifted, work goes on late
 into Saturday night. New rule: every milestone ends with a green Shipping build pushed to itch, so there is always
 something that could be submitted. New features stop **Sun 12:00 PC clock** (the video capture needs the final look).
 Video Sun 18:00 and submit Sun 20:00 (never later than 21:59) stay.
 
-### Чт 12.11: прототип боя на фасолинах
+### Thu 12.11: fight prototype with beans
 
-| Время | Claude | Люди |
+| Time | Claude | People |
 |---|---|---|
-| 13:30–14:00 | Новая сессия. Запись сессии в `sessions.json`, `DEVLOG.md`, тикеты, butler. Концепты героя, босса и арены запущены фоном | Павел: черновик страницы itch, адрес в чат |
-| 14:00–16:30 | Блок A: арена, фасолина ходит, прицел, три камеры на F1/F2/F3, шарик, босс-болванка со здоровьем | Павел смотрит концепты, когда сможет |
-| 16:30–19:00 | Блок B: Katana, Shuriken, Dash как компоненты с владельцем. Босс: преследование, залп и удар по площади | |
-| 19:00–21:30 | Блок C: кражи на порогах с карточкой выбора, босс пользуется украденным, Retry с последней кражи, победа и поражение текстом | Кирилл: настроение музыки, эскиз карточки кражи |
-| 21:30–23:00 | Прогон ботом, упаковка, заливка на черновик itch, по клипу на каждую камеру | |
-| **23:00, К1** | **Играбельная версия:** бой от начала до победы или смерти в упакованном билде на itch | Павел играет на Windows и выбирает камеру до 07:00 |
+| 13:30–14:00 | New session. Session entry in `sessions.json`, `DEVLOG.md`, tickets, butler. Hero, boss and arena concepts started in the background | Pavel: draft itch page, address to the chat |
+| 14:00–16:30 | Block A: arena, the bean walks, aim, three cameras on F1/F2/F3, a ball, a dummy boss with health | Pavel looks at the concepts when he can |
+| 16:30–19:00 | Block B: Katana, Shuriken, Dash as components with an owner. Boss: chase, volley and area strike | |
+| 19:00–21:30 | Block C: thefts at thresholds with a choice card, the boss uses stolen mechanics, Retry from the last theft, victory and defeat as text | Kirill: music mood, a sketch of the theft card |
+| 21:30–23:00 | A bot run, packaging, upload to the draft itch page, one clip per camera | |
+| **23:00, K1** | **Playable version:** the fight from the start to victory or death in a packaged build on itch | Pavel plays on Windows and picks a camera by 07:00 |
 
-Останется время: Parry и Ultimate из блока D.
+If time remains: Parry and Ultimate from block D.
 
-### Пт 13.11: полный бой и тестовый билд
+### Fri 13.11: the full fight and a test build
 
-| Время | Claude | Люди |
+| Time | Claude | People |
 |---|---|---|
-| 07:00–12:00 | Блок D: выбранная камера, остальные выключены. Parry, Ultimate, пять механик и пороги 80/60/40/20, добивание с возвратом, титулы | |
-| 12:00–17:00 | Блок E: слои косметики на заглушках (эффекты, сетка, T-поза, фасолина, дорожки музыки). Первые модели в Meshy: герой и босс, проверка цепочки модель, риг, анимации, импорт | Павел утверждает концепты |
-| **18:00, К2** | **Тестовый билд дня 2:** Shipping на черновике itch | Павел и Кирилл качают и играют |
-| 19:00–24:00 | Правки ощущений по живым замечаниям. Импорт первых звуков | Павел дома: модели утвердить или переделать в Tripo, решение по арт-пайплайну. Кирилл: дорожки v1 |
+| 07:00–12:00 | Block D: the chosen camera, the others off. Parry, Ultimate, five mechanics and thresholds 80/60/40/20, the finishing blow with the comeback, titles | |
+| 12:00–17:00 | Block E: cosmetic layers on placeholders (effects, grid, T-pose, bean, music tracks). First models in Meshy: hero and boss, check the chain model, rig, animations, import | Pavel approves the concepts |
+| **18:00, K2** | **Day 2 test build:** Shipping on the draft itch page | Pavel and Kirill download and play |
+| 19:00–24:00 | Feel fixes from live notes. Import of the first sounds | Pavel at home: approve the models or redo them in Tripo, decide on the art pipeline. Kirill: tracks v1 |
 
-### Сб 14.11: арт, ощущение боя, баланс
+### Sat 14.11: art, fight feel, balance
 
-| Время | Claude | Люди |
+| Time | Claude | People |
 |---|---|---|
-| 09:00–13:00 | Блок F: арт в игру. Герой и босс с анимациями, неоновая арена, эффекты | Павел: модели, два пропса в Rodin, решение по интро |
-| 13:00–18:00 | Блок G: музыка и звуки, читаемость атак босса, интро (если решено делать) | Кирилл: финальные дорожки, звуки, интерфейс |
-| 18:00–22:00 | Баланс: бот гоняет все порядки краж, люди играют | Все играют. Евгений: список багов |
-| ~~22:00, К3~~ | Lifted (Sat 18:30): the fight block (T-055, T-038, T-056, T-057, T-058), then the Meshy models T-025/T-026, T-030, T-039 into the night. Each milestone ends with a green Shipping build on itch | Павел играет билды между тикетами |
+| 09:00–13:00 | Block F: art into the game. Hero and boss with animations, neon arena, effects | Pavel: models, two props in Rodin, intro decision |
+| 13:00–18:00 | Block G: music and sounds, readability of the boss's attacks, intro (if decided) | Kirill: final tracks, sounds, interface |
+| 18:00–22:00 | Balance: a bot runs all theft orders, people play | Everyone plays. Evgeny: bug list |
+| ~~22:00, K3~~ | Lifted (Sat 18:30): the fight block (T-055, T-038, T-056, T-057, T-058), then the Meshy models T-025/T-026, T-030, T-039 into the night. Each milestone ends with a green Shipping build on itch | Pavel plays builds between tickets |
 
 **Sun 12:00, K3 (moved):** new features stop. After it only bugs, balance, polish, English text.
 
-### Вс 15.11: полировка и сдача
+### Sun 15.11: polish and submission
 
-| Время | Claude | Люди |
+| Time | Claude | People |
 |---|---|---|
-| 09:00–12:00 | Last features until 12:00 (K3 moved here), bugs, performance, English proofreading. Raw 1080p clips right after 12:00 on the final look | Плейтест |
-| 12:00–15:00 | Страница itch, `THIRD_PARTY.md`, список инструментов, финал dev log, ответы NVIDIA (если DLSS вошёл) | Павел монтирует видео |
-| 15:00 | Релиз-кандидат: `TeamName_GameName.zip`, проверка размера | Кирилл или Евгений запускают на чистой машине |
-| **18:00, К4** | **Видео готово** и залито, ссылка на руках | Павел |
-| 19:00 | Финальный билд на странице itch, форма заполнена | Павел проверяет форму |
-| **20:00, К5** | **Сабмит** (цель). Жёсткая граница 21:59 | Павел нажимает |
+| 09:00–12:00 | Last features until 12:00 (K3 moved here), bugs, performance, English proofreading. Raw 1080p clips right after 12:00 on the final look | Playtest |
+| 12:00–15:00 | itch page, `THIRD_PARTY.md`, tool list, final dev log, NVIDIA answers (if DLSS made it) | Pavel edits the video |
+| 15:00 | Release candidate: `TeamName_GameName.zip`, size check | Kirill or Evgeny run it on a clean machine |
+| **18:00, K4** | **Video ready** and uploaded, link in hand | Pavel |
+| 19:00 | Final build on the itch page, form filled in | Pavel checks the form |
+| **20:00, K5** | **Submission** (target). Hard limit 21:59 | Pavel presses the button |
 
-После сабмита ничего не трогаем: повторная отправка это дисквалификация (`JAM_BRIEF.md`, строка 63).
+After submission we touch nothing: a second submission is a disqualification (`JAM_BRIEF.md`, section 3).
 
-## 6. Как работает агент
+## 6. How the agent works
 
-- Прототип делает одна сессия без субагентов, по тикетам через тесты. Позже лиды-субагенты допустимы, но перед каждой волной прогноз (агенты, токены, доля лимита, дешёвый вариант) и «да» Павла.
-- После каждого блока: коммит, клип на 30–60 секунд, три строки в чат и в `DEVLOG.md`.
-- Вопросы, где нужны глаза Павла, складываются в `QUESTIONS.md` и работу не останавливают: агент берёт вариант по умолчанию и идёт дальше.
-- Упаковка каждый вечер. Перед запуском окна с игрой предупреждение.
-- Логи сессий экспортируются в `_AgentLogs/` на каждом коммите. Общение в сессии по-английски. Секреты слать в чат строкой `ИМЯ_KEY=значение`.
+- The prototype is made by one session without subagents, ticket by ticket through tests. Later, lead subagents are allowed, but before each wave a forecast (agents, tokens, share of the limit, a cheap option) and Pavel's "yes".
+- After each block: a commit, a 30–60 second clip, three lines to the chat and to `DEVLOG.md`.
+- Questions that need Pavel's eyes go into `QUESTIONS.md` and do not stop the work: the agent takes the default option and moves on.
+- Packaging every evening. A warning before launching a game window.
+- Session logs are exported to `_AgentLogs/` on every commit. The session talks in English. Secrets are sent to the chat as a `NAME_KEY=value` line.
 
-## 7. Призы и перки
+## 7. Prizes and perks
 
-- Идём на Best Overall UE, Best Team, Glass Box. Render Royalty как надежда.
-- Hyper3D: надбавка победителям любой категории. Два пропса из Rodin в игре и Rodin в поле Tools used.
-- RTX Award: в «если успеем». Хватит плагина DLSS, но список стран не проверен.
-- Перки: fal, Meshy, Tripo, Hyper3D, Anthropic $25. WeLoveIndies только при нехватке звуков (некоммерческая лицензия, идёт в `THIRD_PARTY.md`).
+- We go for Best Overall UE, Best Team, Glass Box. Render Royalty as a hope.
+- Hyper3D: a bonus for winners of any category. Two props from Rodin in the game and Rodin in the Tools used field.
+- RTX Award: under "if time allows". The DLSS plugin is enough, but the country list is not checked.
+- Perks: fal, Meshy, Tripo, Hyper3D, Anthropic $25. WeLoveIndies only if sounds run short (non-commercial licence, goes into `THIRD_PARTY.md`).
 
-## 8. Риски
+## 8. Risks
 
-| Риск | Что делаем |
+| Risk | What we do |
 |---|---|
-| Вся игра это один бой, запасного финала нет | Прототип на фасолинах сегодня, бот-игрок для баланса, люди играют с ночи четверга |
-| Три камеры размазывают день | Симуляция общая, камеры это тонкий слой. Выбор до пт 07:00, две лишние выключаются |
-| Фасолина против босса со всем набором не проходится | Бот гоняет все порядки краж, урон и здоровье в таблице данных, Retry с последней кражи |
-| Цепочка модель, риг, анимации не заведётся | Проверяем в пятницу днём на герое. Запасной вариант: риг в Tripo |
-| Павел без домашнего ПК до вечера пятницы | Билды на черновике itch, клипы после каждого блока |
-| Упаковка сломается в конце | Shipping собирается каждый вечер. Пустой проект уже упакован |
-| Лимиты Claude кончатся посреди блока | Блоки не длиннее пяти часов, тяжёлые волны только по прогнозу |
-| Русский текст или звук в игре | Все строки в одном месте, вычитка в воскресенье утром |
+| The whole game is one fight, no backup ending | A bean prototype today, a bot player for balance, people play from Thursday night |
+| Three cameras smear the day | The simulation is shared, cameras are a thin layer. Choice by Fri 07:00, the two extra ones are switched off |
+| The bean cannot beat the boss with the full set | The bot runs all theft orders, damage and health in a data table, Retry from the last theft |
+| The model, rig, animation chain will not work | We check it on the hero on Friday afternoon. Backup: rig in Tripo |
+| Pavel without the home PC until Friday evening | Builds on the draft itch page, clips after each block |
+| Packaging breaks at the end | Shipping is built every evening. The empty project is already packaged |
+| Claude's limits run out mid-block | Blocks no longer than five hours, heavy waves only by forecast |
+| Russian text or sound in the game | All strings in one place, proofreading on Sunday morning |
 
-## 9. Чеклист
+## 9. Checklist
 
-Сделано:
-- [x] Коммит `pre-jam: tooling and plan`, пустой Shipping упакован и запущен.
-- [x] Ключи fal, Meshy и itch в `.env`. Meshy и itch проверены запросом, fal не проверен.
-- [x] Экспорт логов режет ключи. Ночная сессия планирования в лог не входит, лог разработки начинается с первой сессии джема.
+Done:
+- [x] Commit `pre-jam: tooling and plan`, the empty Shipping build packaged and launched.
+- [x] fal, Meshy and itch keys in `.env`. Meshy and itch checked with a request, fal not checked.
+- [x] The log export strips keys. The night planning session is not in the log, the development log starts with the first jam session.
 
-Павел:
-- [ ] Создать черновик страницы на itch и прислать адрес.
-- [ ] Windows-ПК на сегодняшнюю ночь: сыграть билд К1 и выбрать камеру до пт 07:00.
-- [ ] Активировать Hyper3D кодом из письма до 16.11.
-- [ ] Проверить в официальных правилах список стран RTX Award.
-- [ ] Название команды до воскресенья.
-- [ ] Отменить подписку Meshy до конца бесплатного месяца.
+Pavel:
+- [ ] Create a draft page on itch and send the address.
+- [ ] A Windows PC for tonight: play build K1 and pick a camera by Fri 07:00.
+- [ ] Activate Hyper3D with the code from the email by 16.11.
+- [ ] Check the RTX Award country list in the official rules.
+- [ ] Team name by Sunday.
+- [ ] Cancel the Meshy subscription before the free month ends.
 
-Кирилл:
-- [ ] Зарегистрироваться на itch, вступить в джем, дать email от Epic-аккаунта.
-- [ ] Папка Google Drive с доступом Павлу.
+Kirill:
+- [ ] Register on itch, join the jam, give the email of the Epic account.
+- [ ] A Google Drive folder shared with Pavel.
 
-Евгений:
-- [ ] Ответ до сб 14.11, 12:00: участвует или нет. Если да, имя и email от Epic-аккаунта.
+Evgeny:
+- [ ] Answer by Sat 14.11, 12:00: in or out. If in, name and email of the Epic account.
 
-Claude в первый час сессии:
-- [ ] Проверить имя NEON RONIN на занятость.
-- [ ] Поставить butler и залить пустой билд на черновик.
-- [ ] Проверить чтение файлов из папки Google Drive на одном WAV.
+Claude in the first hour of the session:
+- [ ] Check the name NEON RONIN is free.
+- [ ] Install butler and upload an empty build to the draft.
+- [ ] Check reading files from the Google Drive folder on one WAV.

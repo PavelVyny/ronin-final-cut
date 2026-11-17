@@ -35,6 +35,11 @@ original JSONL, subagents included. The git pre-commit hook (`Tools/Git/hooks/pr
 commit. One value was redacted as `[REDACTED]`: the Android File Server's `SecurityToken` from
 `Config/DefaultEngine.ini`, where the logs quote it.
 
+The logs are kept exactly as recorded. The sessions ran in English, but the author's native language is Russian, so a
+few of the author's messages in them are in Russian. They also mention CastleFight and Diskworld, the author's other
+Unreal projects, where the pre-jam tooling came from (see `PREJAM.md`). `JAM_BRIEF.md` and `JAM_PLAN.md` were written
+in Russian and translated to English after the jam; the originals are in the first commit.
+
 ## Before the jam
 
 Only tooling existed before the start (see `PREJAM.md`). The pre-jam commits in the working repository

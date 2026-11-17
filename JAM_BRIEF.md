@@ -1,207 +1,210 @@
 # JAM_BRIEF: 2026 Epic AI MegaJam
 
-Собрано 2026-11-11 23:55 по Осло (за 6 часов до старта). Время везде Europe/Oslo (CET, UTC+1), если не сказано иное.
+> Translated from Russian on 2026-11-17, after the jam. The original Russian text is in the first commit of this
+> repository. Nothing was added or removed: it is the brief as written before the start.
 
-Источники и что по ним проверено:
-- **[PDF]** Официальные правила RU, редакция от 26.10.2026, прочитаны все 18 страниц.
-- **[itch]** https://itch.io/jam/2026-epic-ai-megajam, прочитана через WebFetch (он пересказывает страницу, поэтому дословные формулировки со страницы стоит сверить глазами там, где это отмечено).
-- **[стрим]** Запись кикоффа (49 мин), автосубтитры YouTube, прочитаны целиком. Тема цитируется по ним.
-- **[форум 5.9]** https://forums.unrealengine.com/t/unreal-engine-5-9-megajam-preview/2852840, первая страница треда.
-- **[X]** Пост @UnrealEngine не открылся (HTTP 402). Формулировка темы взята из стрима, где ведущий дважды зачитал её с графики.
+Compiled 2026-11-11 23:55 Oslo time (6 hours before the start). All times are Europe/Oslo (CET, UTC+1) unless stated otherwise.
+
+Sources and what was checked in each:
+- **[PDF]** Official rules, Russian edition of 26.10.2026, all 18 pages read.
+- **[itch]** https://itch.io/jam/2026-epic-ai-megajam, read through WebFetch (it paraphrases the page, so exact wording from the page should be checked by eye where marked).
+- **[stream]** Kickoff recording (49 min), YouTube auto-captions, read in full. The theme is quoted from them.
+- **[forum 5.9]** https://forums.unrealengine.com/t/unreal-engine-5-9-megajam-preview/2852840, first page of the thread.
+- **[X]** The @UnrealEngine post did not open (HTTP 402). The theme wording comes from the stream, where the host read it out from the graphic twice.
 
 ---
 
-## 1. Тема
+## 1. Theme
 
 **DIRECTOR'S CUT**
 
-Дословно со стрима (25:00 и 43:00, зачитано с графики):
+Verbatim from the stream (25:00 and 43:00, read out from the graphic):
 
 > Your vision, your specific edits, and ultimately your final cut. Your director's cut. Every developer has that one feature that didn't quite make it, the mechanic scoped out while sleep-deprived at 2 am, or that idea you've had shelved and never quite found a place for yet. Well, now is your chance to finally build it all in this year's Epic MegaJam. If you're utilizing AI agents in your workflows, you're directing those too. Set the vision, delegate the tasks, and decide what goes in and what doesn't. Aim for ambition and direct your path accordingly.
 
-Как объясняли:
-- Ведущий (34:00): тема «both specific and vague for a reason», хотят увидеть нашу интерпретацию того, что такое director's cut.
-- Ведущий (44:00): это двойной смысл. Первый: ты режиссируешь агентов. Второй: что можно сделать с агентами за 4 дня такого, что раньше было не по силам. «There's room for interpretation, go wild with it». Ему больше всего нравятся работы, где тема хитро вплетена в дизайн игры.
-- Гость из Epic (Adrian, product technical director): «I have some themes that I let die», то есть буквальная трактовка «достань идею с полки» тоже ожидаема.
-- Конкретных примеров игр на стриме **не давали**.
+How it was explained:
+- Host (34:00): the theme is "both specific and vague for a reason", they want to see our interpretation of what a director's cut is.
+- Host (44:00): it has a double meaning. First: you direct the agents. Second: what you can do with agents in 4 days that was out of reach before. "There's room for interpretation, go wild with it". He likes entries best where the theme is cleverly woven into the game design.
+- Guest from Epic (Adrian, product technical director): "I have some themes that I let die", so the literal reading "take an idea off the shelf" is expected too.
+- **No** concrete game examples were given on the stream.
 
-Критерий судей по теме [itch, стрим 21:00]: «a fresh, clever take on the theme».
+Judging criterion for the theme [itch, stream 21:00]: "a fresh, clever take on the theme".
 
-Моя оценка (не из источников): трактовка «это моя давняя идея» работает только в описании и в dev log, в самой игре судья её не увидит. Её возьмёт большинство команд, значит на «fresh, clever» она не тянет. Сильнее те концепты, где монтаж, вырезанное, правки или «финальная версия» являются механикой.
+My assessment (not from the sources): the reading "this is my long-held idea" works only in the description and the dev log, a judge will not see it in the game itself. Most teams will take it, so it does not reach "fresh, clever". Stronger are concepts where editing, cut content, revisions or the "final version" are the mechanic.
 
-## 2. Таймлайн (Europe/Oslo)
+## 2. Timeline (Europe/Oslo)
 
-| Когда | Что |
+| When | What |
 |---|---|
-| Ср 11.11, 20:00 | Кикофф и тема (прошёл) |
-| **Чт 12.11, 06:00** | **Старт.** До этого только тулзы, агенты, MCP, промпты, скрипты |
-| Чт–Вс, ~20:00 | Ежедневные стримы. На странице 11 AM PST, но ведущий сказал, что расписание сдвинули под гостей, а графика в субтитры не попала. **Точное время не проверено**, смотреть на канале |
-| Пт 13.11 | День 2: тестовый упакованный билд (совет Epic) |
-| Сб–Вс 14–15.11, 18:00–04:00 | Очная площадка в Сан-Франциско (нам не нужна, онлайн судят так же) |
-| **Вс 15.11, 20:59** | **Наш внутренний дедлайн сабмита** (за 6 часов) |
-| **Пн 16.11, 02:59** | **Официальный дедлайн** (15.11 20:59 ET). Опоздание = дисквалификация |
-| до 29.01.2027 | Объявление победителей. На ответ на письмо 72 часа, иначе приз уходит другому [PDF §14] |
+| Wed 11.11, 20:00 | Kickoff and theme (done) |
+| **Thu 12.11, 06:00** | **Start.** Before it only tools, agents, MCP, prompts, scripts |
+| Thu–Sun, ~20:00 | Daily streams. The page says 11 AM PST, but the host said the schedule moved to fit the guests, and the graphic did not make it into the captions. **Exact time not verified**, check the channel |
+| Fri 13.11 | Day 2: a test packaged build (Epic's advice) |
+| Sat–Sun 14–15.11, 18:00–04:00 | In-person venue in San Francisco (not needed for us, online entries are judged the same) |
+| **Sun 15.11, 20:59** | **Our internal submission deadline** (6 hours early) |
+| **Mon 16.11, 02:59** | **Official deadline** (15.11 20:59 ET). Late = disqualification |
+| by 29.01.2027 | Winners announced. 72 hours to answer the email, otherwise the prize goes to someone else [PDF §14] |
 
-Проверка расчёта: itch показывает окно сабмита 2026-11-12 05:00 → 2026-11-16 01:59 без пояса, это UTC, плюс час даёт Осло. Сходится с твоими цифрами.
+Calculation check: itch shows the submission window 2026-11-12 05:00 → 2026-11-16 01:59 with no time zone, that is UTC, plus an hour gives Oslo. Matches your numbers.
 
-Внимание: часы на этом ПК сейчас в UTC+2 (GTB). Если ты не в Норвегии, то по местным часам старт в 07:00, дедлайн в 03:59.
+Note: the clock on this PC is currently UTC+2 (GTB). If you are not in Norway, by local time the start is at 07:00 and the deadline at 03:59.
 
-Сроки перков, которые сгорают:
-- Cursor + Grok: забрать до 15.11, живут 7 дней.
-- Hyper3D Rodin: активировать до 16.11, действует до 20.11.
-- Tripo: до 16.11 (у нас уже активировано), кредиты до 17.11.
-- Meshy: до 17.11, нужна карта.
-- PBRgen: действует только 7–15.11.
-- Diversion: до 22.11. Anthropic API $25: 12–27.11. fal $30: до 30.11.
+Deadlines of perks that expire:
+- Cursor + Grok: claim by 15.11, valid 7 days.
+- Hyper3D Rodin: activate by 16.11, valid until 20.11.
+- Tripo: by 16.11 (already activated for us), credits until 17.11.
+- Meshy: by 17.11, needs a card.
+- PBRgen: valid only 7–15.11.
+- Diversion: by 22.11. Anthropic API $25: 12–27.11. fal $30: by 30.11.
 
-## 3. Чеклист сабмита (UE)
+## 3. Submission checklist (UE)
 
-Игра:
-- [ ] Упакованный билд, не проект. Windows 10/11, macOS, Android или iOS. Безопасный выбор: Windows.
-- [ ] Запускается без установки дополнительного софта [PDF 7(f)].
-- [ ] Архив `TeamName_GameName.zip`, меньше 1 ГБ (больше только через butler).
-- [ ] Залит на **наш** itch.io-аккаунт, затем отправлен в джем. Одна работа от команды, повторная отправка = дисквалификация [PDF §2].
-- [ ] Всё на английском: тексты в игре, озвучка, видео, описание [PDF 7(i)].
+Game:
+- [ ] A packaged build, not a project. Windows 10/11, macOS, Android or iOS. Safe choice: Windows.
+- [ ] Runs without installing extra software [PDF 7(f)].
+- [ ] Archive `TeamName_GameName.zip`, under 1 GB (larger only through butler).
+- [ ] Uploaded to **our** itch.io account, then submitted to the jam. One entry per team, a second submission = disqualification [PDF §2].
+- [ ] Everything in English: in-game text, voice, video, description [PDF 7(i)].
 
-Видео:
-- [ ] 30–60 секунд, не меньше 1920x1080, запись геймплея, ссылкой.
-- [ ] Геймплей в первые 5 секунд (совет Epic).
+Video:
+- [ ] 30–60 seconds, at least 1920x1080, gameplay footage, as a link.
+- [ ] Gameplay in the first 5 seconds (Epic's advice).
 
-Данные:
-- [ ] Название команды и игры.
-- [ ] Полные имена и email всех троих, те, что привязаны к Epic-аккаунтам. Один отмечен как Team Owner.
-- [ ] Список сторонних ассетов (Fab, WeLoveIndies и т.п.). Сгенерированное ИИ сторонним не считается [PDF 15(в)].
-- [ ] Заявить всё, что сделано до старта: промпты, скрипты, конфиги [itch FAQ].
-- [ ] Dev log ссылкой (обязателен для Glass Box).
-- [ ] Список инструментов (нужен для партнёрских призов: Rodin, NVIDIA).
-- [ ] Ответы на вопросы NVIDIA, если идём на RTX Award.
+Data:
+- [ ] Team name and game name.
+- [ ] Full names and emails of all three, the ones tied to Epic accounts. One marked as Team Owner.
+- [ ] List of third-party assets (Fab, WeLoveIndies etc.). AI-generated content does not count as third-party [PDF 15(c)].
+- [ ] Declare everything made before the start: prompts, scripts, configs [itch FAQ].
+- [ ] Dev log as a link (required for Glass Box).
+- [ ] List of tools (needed for partner prizes: Rodin, NVIDIA).
+- [ ] Answers to the NVIDIA questions, if we go for the RTX Award.
 
-## 4. Ограничения
+## 4. Restrictions
 
-До старта [PDF 7(h)]:
-- Можно: ИИ-инструменты, конфигурации агентов, MCP, библиотеки промптов, скрипты. Epic вправе запросить эти материалы или историю их изменений в VCS.
-- Нельзя: геймплей, уровни, графика. Всё это только в срок джема. Исключение: сторонние ассеты.
+Before the start [PDF 7(h)]:
+- Allowed: AI tools, agent configurations, MCP, prompt libraries, scripts. Epic may request these materials or their change history in VCS.
+- Not allowed: gameplay, levels, art. All of that only within the jam. Exception: third-party assets.
 
-Контент:
-- Не переработка туториалов Epic (переименовать и перекрасить не считается) [7(d)].
-- Геймплей шире стартовых шаблонов Epic [7(e)].
-- Рейтинг Teen (13+): без наготы, жестокости к животным, наркотиков, оскорблений.
-- Чужая IP запрещена. Товарные знаки и логотипы запрещены все, кроме логотипа Unreal Engine по брендбуку [15(г)].
-- Нельзя критиковать людей и узнаваемые продукты, включая конкурентов Epic [§8]. Сатира на реальные игры и студии под запретом.
+Content:
+- Not a rework of Epic tutorials (renaming and recolouring does not count) [7(d)].
+- Gameplay beyond Epic's starter templates [7(e)].
+- Teen rating (13+): no nudity, animal cruelty, drugs, slurs.
+- Other people's IP is forbidden. All trademarks and logos are forbidden except the Unreal Engine logo per the brand guide [15(d)].
+- No criticism of people and recognisable products, Epic's competitors included [§8]. Satire of real games and studios is off limits.
 
-Участники [PDF §5]:
-- 18+, законный резидент разрешённой юрисдикции, Epic-аккаунт на своё имя.
-- Запрещённые юрисдикции: Иран, Ирак, КНДР, Сомали, Судан, Сирия, Крым, Донецк, Луганск, **Италия**. Россия, Турция и Бразилия исключены из списка 26.10 (жители Бразилии без денежных призов).
-- Команда 1–5 человек, человек состоит только в одной команде.
-- Все деньги и призы получает Team Owner (Hyperwallet, форма W-8BEN) и сам делит между командой [§13].
+Participants [PDF §5]:
+- 18+, legal resident of an eligible jurisdiction, Epic account in your own name.
+- Excluded jurisdictions: Iran, Iraq, North Korea, Somalia, Sudan, Syria, Crimea, Donetsk, Luhansk, **Italy**. Russia, Turkey and Brazil were removed from the list on 26.10 (Brazilian residents without cash prizes).
+- Team of 1–5 people, a person is in one team only.
+- All money and prizes go to the Team Owner (Hyperwallet, W-8BEN form), who splits them within the team [§13].
 
-Движок: UE или UEFN, не оба. Версия UE любая из UE5, 5.9 не обязателен [стрим 07:50].
+Engine: UE or UEFN, not both. Any UE5 version, 5.9 is not required [stream 07:50].
 
-## 5. Судейство
+## 5. Judging
 
-Оценка 1–5 по каждому из семи критериев [PDF §9, itch, стрим]:
+Score 1–5 on each of seven criteria [PDF §9, itch, stream]:
 
-1. **Ambition and innovation**: то, что обычно не вытянуть за 4 дня. Новая механика, смелый стиль, больший скоуп.
-2. **Theme**: свежая, остроумная трактовка.
-3. **Fun factor**: весело и приятно играть.
-4. **Gameplay**: цельные, оригинальные механики с хорошим ощущением.
-5. **Visuals**: сильный единый стиль, фотореализм или стилизация.
-6. **Level design and progression**: пространства, которые поддерживают геймплей и ведут игрока.
-7. **Audio**: звук и музыка, усиливающие впечатление.
+1. **Ambition and innovation**: what you usually cannot pull off in 4 days. A new mechanic, a bold style, a bigger scope.
+2. **Theme**: a fresh, clever take.
+3. **Fun factor**: fun and pleasant to play.
+4. **Gameplay**: coherent, original mechanics that feel good.
+5. **Visuals**: a strong unified style, photoreal or stylised.
+6. **Level design and progression**: spaces that support the gameplay and guide the player.
+7. **Audio**: sound and music that enhance the experience.
 
-Важно:
-- Инновации оцениваются в самой игре. Использование ИИ баллов не даёт, сведения о нём только контекст [PDF §9].
-- При равенстве баллов пересчёт с удвоенным Fun factor [PDF §9]. Фан важнее всего остального.
-- Одна работа получает максимум один основной приз и один специальный [PDF §13]. Претендент выигрывает только одну специальную номинацию [PDF §10].
-- Победитель определяется суммой баллов: все семь критериев весят одинаково. Звук и левел-дизайн дают столько же, сколько геймплей. Игра без звука теряет 1/7 оценки.
+Important:
+- Innovation is judged in the game itself. Using AI gives no points, information about it is only context [PDF §9].
+- On a tie, a recount with Fun factor doubled [PDF §9]. Fun matters more than anything else.
+- One entry gets at most one main prize and one special prize [PDF §13]. A contender wins only one special category [PDF §10].
+- The winner is decided by the total score: all seven criteria weigh the same. Sound and level design give as much as gameplay. A game without sound loses 1/7 of the score.
 
-## 6. Номинации
+## 6. Categories
 
-Основные: Best Overall UE ($7500 / $5000 / $2500), UEFN, Student (то же).
+Main: Best Overall UE ($7500 / $5000 / $2500), UEFN, Student (the same).
 
-Гранты на продолжение (не приз, по усмотрению Epic): $50k / $25k / $10k плюс Fab-кредиты $1000 / $500 / $250.
+Grants to continue (not a prize, at Epic's discretion): $50k / $25k / $10k plus Fab credits $1000 / $500 / $250.
 
-На что целиться:
+What to aim for:
 
-| Номинация | Приз | Что нужно | Вердикт |
+| Category | Prize | What it takes | Verdict |
 |---|---|---|---|
-| **Best Overall UE** | до $7500 + грант | Сумма баллов | Основная цель |
-| **Best Team** | $5000, самый крупный модификатор | Команда 2+ | Подходим автоматически |
-| **Glass Box** | $2500 + ROG Ally каждому | Dev log, поданный в срок | Дёшево для нас: логи сессий агентов и привычка к docs-sync уже есть. Вести с первой минуты |
-| **Render Royalty** | $2500 + партнёрские | Лучший визуал, стилизация годится | Реально при едином стиле (Tripo + Blender пайплайн есть) |
-| **NVIDIA RTX Award** | RTX 5090 | UE, хотя бы одна фича NvRTX, DLSS 4.5 или NVIDIA ACE, ответы на вопросы при сабмите | Плагин DLSS может быть дешёвым билетом. Нужны RTX-карта и проверка страны |
-| Best Student | до $7500 | Все трое студенты вуза | Спросить на гриле |
-| Pocket Powerhouse | $2500 | Мобильная игра | Не советую: мобильная упаковка это отдельный риск |
-| Solo Driver, Walkie-Talkie | | Соло, UEFN | Не наше |
+| **Best Overall UE** | up to $7500 + grant | Total score | Main goal |
+| **Best Team** | $5000, the biggest modifier | Team of 2+ | We qualify automatically |
+| **Glass Box** | $2500 + ROG Ally each | Dev log submitted on time | Cheap for us: agent session logs and the docs-sync habit already exist. Keep it from the first minute |
+| **Render Royalty** | $2500 + partner prizes | Best visuals, stylised counts | Realistic with a unified style (Tripo + Blender pipeline exists) |
+| **NVIDIA RTX Award** | RTX 5090 | UE, at least one NvRTX feature, DLSS 4.5 or NVIDIA ACE, answers to questions at submission | The DLSS plugin may be a cheap ticket. Needs an RTX card and a country check |
+| Best Student | up to $7500 | All three are university students | Ask at the grill |
+| Pocket Powerhouse | $2500 | Mobile game | Not advised: mobile packaging is a separate risk |
+| Solo Driver, Walkie-Talkie | | Solo, UEFN | Not ours |
 
-Партнёрские призы для победителей любых категорий: Hyper3D (год Rodin Business каждому плюс доля от **$10 000 cash pool** между победившими командами, которые использовали Rodin и указали его в Tools used), Tripo, Meshy.
+Partner prizes for winners of any category: Hyper3D (a year of Rodin Business each plus a share of a **$10,000 cash pool** among winning teams that used Rodin and listed it in Tools used), Tripo, Meshy.
 
-## 7. Перки: что забрать
+## 7. Perks: what to claim
 
-Забрать обязательно:
-- **Tripo**: 3000 кредитов, уже активировано. Основной 3D-генератор, пайплайн отлажен.
-- **Hyper3D Rodin**: 208 кредитов. Сгенерировать в нём хотя бы пару ассетов, попавших в игру, и указать в Tools used: это билет в cash pool $10k.
-- **WeLoveIndies**: звук и музыка. Лицензия некоммерческая, для коммерческого релиза придётся докупать. Идёт в список сторонних ассетов.
-- **Anthropic**: $25 API (пригодится для скриптов генерации).
-- **fal**: $30 (картинки, видео, звук через API).
+Claim for sure:
+- **Tripo**: 3000 credits, already activated. Main 3D generator, the pipeline is tuned.
+- **Hyper3D Rodin**: 208 credits. Generate at least a couple of assets in it that make it into the game and list it in Tools used: that is the ticket to the $10k cash pool.
+- **WeLoveIndies**: sound and music. Non-commercial licence, a commercial release would need a purchase. Goes into the third-party asset list.
+- **Anthropic**: $25 API (useful for generation scripts).
+- **fal**: $30 (images, video, sound through the API).
 
-По ситуации:
-- **Meshy**: 1000 кредитов, нужна карта. Запас на случай, если Tripo не справится.
-- **PBRgen**: PBR-материалы, действует только до 15.11.
-- **Diversion**: облачный VCS. У тебя dv уже стоит. Выбор git или dv решить до старта, главное одна система на троих.
-- **Cursor + Grok $50**: если кто-то из команды работает в Cursor.
-- **Reallusion iClone, Rokoko**: только если в концепте есть персонажная анимация и человек, который этим займётся. Учить новый инструмент на джеме не стоит.
+Depending on the situation:
+- **Meshy**: 1000 credits, needs a card. A reserve in case Tripo fails.
+- **PBRgen**: PBR materials, valid only until 15.11.
+- **Diversion**: cloud VCS. You already have dv installed. Decide git or dv before the start, the point is one system for all three.
+- **Cursor + Grok $50**: if someone on the team works in Cursor.
+- **Reallusion iClone, Rokoko**: only if the concept has character animation and someone to do it. Learning a new tool at a jam is not worth it.
 
-## 8. UE 5.9 MegaJam Preview: нужен ли
+## 8. UE 5.9 MegaJam Preview: do we need it
 
-Что даёт [форум 5.9, документация MCP]:
-- MCP стартует с редактором, соединение надёжнее. Новые тулсеты: рендеринг, VCS, профилирование, отладка, тест геймплея, геометрия, звук, UI, создание уровней, Fab (агент ищет и ставит ассеты).
-- Unreal Assistant: панель в редакторе под Claude Code, Codex, Cursor.
-- Больше Python API: звук, MetaSounds, Niagara, материалы, PCG, UI.
-- Web-билды (только 5.9, нужен source build и C++ проект).
+What it gives [forum 5.9, MCP documentation]:
+- MCP starts with the editor, the connection is more reliable. New toolsets: rendering, VCS, profiling, debugging, gameplay testing, geometry, sound, UI, level creation, Fab (the agent finds and installs assets).
+- Unreal Assistant: an editor panel for Claude Code, Codex, Cursor.
+- More Python API: sound, MetaSounds, Niagara, materials, PCG, UI.
+- Web builds (5.9 only, needs a source build and a C++ project).
 
-Чем плохо:
-- Сами авторы: сделан за неделю, QA короче обычного, «should be considered as unstable». Советуют работать на копиях проектов.
-- Известные падения редактора: Python-правка корня блюпринта, undo в Deformer Graph.
-- В новых проектах тулсеты выключены, All Toolsets надо включать вручную.
-- Ставится из «Other builds» в лаунчере, у части людей не показывался.
+The downsides:
+- The authors themselves: made in a week, QA shorter than usual, "should be considered as unstable". They advise working on copies of projects.
+- Known editor crashes: Python edit of a blueprint root, undo in Deformer Graph.
+- In new projects the toolsets are off, All Toolsets has to be enabled by hand.
+- Installed from "Other builds" in the launcher, for some people it did not show up.
 
-**Рекомендация: остаёмся на 5.8.4.** Наш мост `F:\projects\unreal-mcp-bridge`, `MCP_Guideline.md` с реестром известных багов, скрипты сборки и упаковки отлажены на 5.8. До старта 6 часов и сейчас ночь, времени на обкатку 5.9 нет. Web-билд не нужен. Пересмотреть только если кто-то из команды уже работал в 5.9.
+**Recommendation: stay on 5.8.4.** Our bridge `F:\projects\unreal-mcp-bridge`, `MCP_Guideline.md` with a register of known bugs, build and packaging scripts are tuned on 5.8. 6 hours before the start and it is night now, no time to break in 5.9. A web build is not needed. Reconsider only if someone on the team has already worked in 5.9.
 
-## 9. Что у нас уже есть
+## 9. What we already have
 
-Можно взять в джем-проект (тулзы, под правило 7(h) подходят, всё задекларировать):
-- MCP: мост `F:\projects\unreal-mcp-bridge\`, порт взять 8002 (8000 Diskworld, 8001 CastleFight). `Diskworld\_Docs\30_Workflows\MCP_Guideline.md`, `How_to_Use_Native_MCP.md`, `Tools\Cutscene\mcp_direct.py`.
-- Сборка: `build_and_test.sh`, `package.sh` (Win64 Development/Shipping + zip), `smoke_package.sh`, `check_code.py`. Чеклист раздачи билда в `Diskworld\_Docs\30_Workflows\Demo_Build.md`.
-- `.claude`: `rules\cpp.md`, `rules\tools.md`, хук `unverified_code.py`, агент `lead.md`, команда `docs-sync`, скилл `create-toolset`.
-- Генерация: картинки через OpenAI (`gen_concepts.py` с лимитом трат), звук и голос через ElevenLabs (`Diskworld\Tools\Voice\lib\`, `sfx_take.mjs`, `line_take.mjs`), импорт и ретаргет Tripo (`import_tripo.py`, `retarget_tripo_rig.py`), Blender MCP.
-- Видео: `Diskworld\Tools\Cutscene\mrq_render.py`, `Shorts\captions_ass.py`, `How_to_Record_Devlog.md`.
-- Параллельные агенты: `How_to_Run_Parallel_Tickets.md`, `How_to_Share_Editor.md`.
+Can be brought into the jam project (tools, fit rule 7(h), declare everything):
+- MCP: bridge `F:\projects\unreal-mcp-bridge\`, take port 8002 (8000 Diskworld, 8001 CastleFight). `Diskworld\_Docs\30_Workflows\MCP_Guideline.md`, `How_to_Use_Native_MCP.md`, `Tools\Cutscene\mcp_direct.py`.
+- Build: `build_and_test.sh`, `package.sh` (Win64 Development/Shipping + zip), `smoke_package.sh`, `check_code.py`. Build hand-out checklist in `Diskworld\_Docs\30_Workflows\Demo_Build.md`.
+- `.claude`: `rules\cpp.md`, `rules\tools.md`, hook `unverified_code.py`, agent `lead.md`, command `docs-sync`, skill `create-toolset`.
+- Generation: images through OpenAI (`gen_concepts.py` with a spend limit), sound and voice through ElevenLabs (`Diskworld\Tools\Voice\lib\`, `sfx_take.mjs`, `line_take.mjs`), Tripo import and retarget (`import_tripo.py`, `retarget_tripo_rig.py`), Blender MCP.
+- Video: `Diskworld\Tools\Cutscene\mrq_render.py`, `Shorts\captions_ass.py`, `How_to_Record_Devlog.md`.
+- Parallel agents: `How_to_Run_Parallel_Tickets.md`, `How_to_Share_Editor.md`.
 
-Нельзя брать: `Source\`, `Content\`, плагин Skelot с настройками, модели, звуки, UI, карты обоих проектов. Скрипты из `Tools\Discovery\` в основном привязаны к конкретным ассетам.
+Must not be brought: `Source\`, `Content\`, the Skelot plugin with its settings, models, sounds, UI, maps of both projects. Scripts from `Tools\Discovery\` are mostly tied to specific assets.
 
-Доказанные навыки: детерминированная симуляция в чистых Rules под TDD, толпа ~400 юнитов, сетевой код, UMG, пайплайн картинка → Tripo → Blender → UE, ElevenLabs, катсцены и камера в Sequencer, озвучка и диалоги, Shipping-билд для тестеров.
+Proven skills: deterministic simulation in pure Rules under TDD, a crowd of ~400 units, network code, UMG, the image → Tripo → Blender → UE pipeline, ElevenLabs, cutscenes and camera in Sequencer, voice-over and dialogue, a Shipping build for testers.
 
-## 10. Расхождения источников с исходным списком
+## 10. Where the sources differ from the original list
 
-Твой список в целом верен. Что не сошлось или чего в нём не было:
+Your list is right overall. What did not match or was missing:
 
-1. **Development или Shipping.** На itch рядом с десктопом и мобилками стоит «(development build)», а для Web требуется Shipping. Неясно, относится ли пометка ко всем платформам или только к iOS. **Не проверено дословно**, надо прочитать этот пункт на странице глазами. PDF тип сборки не оговаривает.
-2. **Свои ассеты до старта.** FAQ на itch: «declare any prompts, scripts, or assets you made before the jam», будто свои старые ассеты можно, если заявить. PDF 7(h) жёстче: вся графика, кроме сторонней, создаётся в срок. При противоречии главнее PDF. Свой арт из CastleFight и Diskworld не берём.
-3. **Правило 7(h) про историю VCS** касается материалов, сделанных до старта (тулзы, промпты), а не всей игры. Вывод тот же: git с первой минуты, и до старта отдельный коммит «только тулзы».
-4. **NVIDIA RTX Award** есть на itch, но в нашем PDF (ред. 26.10) его нет вовсе, как и списка 45 стран с ограничениями, на который ссылается страница. Нужна свежая английская редакция правил.
-5. **Лимит призов**: максимум один основной и один специальный на работу. В списке этого не было.
-6. **Тай-брейк по фану** (удвоение Fun factor).
-7. **Web-билд** требует не просто 5.9 Preview, а source build и C++ проект. Лимиты 500 МБ всего, 200 МБ на файл.
-8. **Оговорки ведущего на стриме**, верить странице: «starts 2 a.m. Eastern» (на деле 12:00 AM), «build from November 15th» (12–15), «6,500 in cash» ($65 000).
-9. **Расписание ежедневных стримов изменено**, новое время в текстовых источниках не найдено.
-10. В партнёрах на стриме названы Google и OpenAI, перков от них на странице нет.
+1. **Development or Shipping.** On itch, next to desktop and mobile, it says "(development build)", while Web requires Shipping. It is unclear whether the note applies to all platforms or only to iOS. **Not verified word for word**, this item on the page has to be read by eye. The PDF does not specify the build type.
+2. **Own assets made before the start.** The itch FAQ: "declare any prompts, scripts, or assets you made before the jam", as if your old assets are allowed if declared. PDF 7(h) is stricter: all art except third-party is made within the jam. On a conflict the PDF wins. We do not take our own art from CastleFight and Diskworld.
+3. **Rule 7(h) on VCS history** covers materials made before the start (tools, prompts), not the whole game. The conclusion is the same: git from the first minute, and before the start a separate "tools only" commit.
+4. **NVIDIA RTX Award** is on itch, but our PDF (ed. 26.10) does not have it at all, nor the list of 45 restricted countries the page refers to. A fresh English edition of the rules is needed.
+5. **Prize limit**: at most one main and one special prize per entry. This was not in the list.
+6. **Fun tie-break** (Fun factor doubled).
+7. **Web build** needs not just 5.9 Preview but a source build and a C++ project. Limits 500 MB total, 200 MB per file.
+8. **Slips of the host on the stream**, trust the page: "starts 2 a.m. Eastern" (actually 12:00 AM), "build from November 15th" (12–15), "6,500 in cash" ($65,000).
+9. **The daily stream schedule changed**, the new time was not found in text sources.
+10. Google and OpenAI were named as partners on the stream, there are no perks from them on the page.
 
-## 11. Советы со стрима
+## 11. Advice from the stream
 
-- Scope small, then polish: «a finished fun game beats an ambitious broken one».
-- Тестовый билд на второй день.
-- Заметки для dev log вести по ходу.
-- Сабмит за пару часов до дедлайна: медленный аплоад, не тот файл.
-- Агентам давать конкретные, детальные запросы. Просить варианты и ручки настройки («give me the controls to fine-tune this»), просить строить вспомогательные меню и тулзы.
-- Быстро поднять прототип агентом, последние 20% доводить руками: «that last 20% usually requires a lot of hands-on».
+- Scope small, then polish: "a finished fun game beats an ambitious broken one".
+- A test build on the second day.
+- Keep notes for the dev log as you go.
+- Submit a couple of hours before the deadline: slow upload, wrong file.
+- Give agents concrete, detailed requests. Ask for variants and tuning knobs ("give me the controls to fine-tune this"), ask them to build helper menus and tools.
+- Get a prototype up fast with an agent, finish the last 20% by hand: "that last 20% usually requires a lot of hands-on".
